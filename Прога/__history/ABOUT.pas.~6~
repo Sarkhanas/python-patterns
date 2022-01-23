@@ -1,0 +1,47 @@
+unit About;
+
+interface
+
+uses WinApi.Windows, System.SysUtils, System.Classes, Vcl.Graphics,
+  Vcl.Forms, Vcl.Controls, Vcl.StdCtrls, Vcl.Buttons, Vcl.ExtCtrls;
+
+type
+  TAboutBox = class(TForm)
+    Panel1: TPanel;
+    ProductName: TLabel;
+    Version: TLabel;
+    OKButton: TButton;
+    Memo1: TMemo;
+    procedure FormClose(Sender: TObject; var Action: TCloseAction);
+    procedure OKButtonClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  AboutBox: TAboutBox;
+
+implementation
+
+{$R *.dfm}
+
+procedure TAboutBox.FormClose(Sender: TObject; var Action: TCloseAction);
+begin
+  AboutBox.Constraints.MaxHeight := 242;
+  AboutBox.Constraints.MaxWidth := 304;
+  AboutBox.Constraints.MinHeight := 242;
+  AboutBox.Constraints.MinWidth := 304;
+  if Memo1.Visible = True then
+    AboutBox.Memo1.Visible := False;
+end;
+
+procedure TAboutBox.OKButtonClick(Sender: TObject);
+begin
+if Memo1.Visible = False then
+  AboutBox.Memo1.Visible := True;
+end;
+
+end.
+ 

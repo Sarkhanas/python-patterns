@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.019,C:\Users\Daniil\Documents\Embarcadero\Studio\Projects\Unit1.dfm=D:\Daniil\курсач ОАиП\Прога\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.358,C:\Users\Daniil\Documents\Embarcadero\Studio\Projects\Project1.dproj=D:\Daniil\курсач ОАиП\Прога\Project1.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.803,=F:\Курсачи\Паттерны программирования Python(ОАиП)\Прога\ABOUT.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.360,=D:\Daniil\курсач ОАиП\Прога\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.833,=F:\Курсачи\Паттерны программирования Python(ОАиП)\Прога\Unit3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.812,=C:\Users\Daniil\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.019,C:\Users\Daniil\Documents\Embarcadero\Studio\Projects\Unit1.pas=D:\Daniil\курсач ОАиП\Прога\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.922,=C:\Users\Daniil\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.943,=C:\Users\Daniil\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>
